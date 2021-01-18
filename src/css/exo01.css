@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: greenyellow;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div,
+span {
+    font-weight: bold;
+    color: coral;
+}
+
+
+/* combinateurs */
+
+div span {
+    color: darkblue;
+}
+
+div>span {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+/* La Classe */
+
+.maClasse {
+    color: royalblue;
+}
+
+.Rouge {
+    color: red;
+}
+
+.Gras {
+    font-weight: bold;
+}
+
+
+/* Id */
+
+#monId {
+    color: aqua;
+}
+
+
+/* selecteur d'attribut */
+
+a[href="http://www.google.be"] {
+    color: brown
+}

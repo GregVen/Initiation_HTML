@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgba(34, 7, 85, 0.911);
+    color: white;
+}
+
+
+/* selectionner une classe un  ".", selectionner un id un "#" */
+
+#selectid {}
+
+.selectclass {}
+
+.policemax {
+    font-size: 10rem;
+    color: green;
+    background-color: yellow;
+    padding: 1rem;
+}

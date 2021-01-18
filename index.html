@@ -1,154 +1,209 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- link vers css -->
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
+
 <body>
+    <!-- menu -->
+
+    <header>
+        <img src="src/img/grapefruit-slice-332-332.jpg" alt="animal">
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="/quisommesnous">Qui Sommes Nous</a></li>
+                <li><a href=/services>Services</a></li>
+                <li><a href=/contat>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
     <!--    commentaires    -->
-            
+
     <h1>Hello World balise h1</h1>
     <h2>Hello World balise h2</h2>
     <h3>Hello World balise h3</h3>
     <h4>Hello World balise h4</h4>
     <h5>Hello World balise h5</h5>
     <h6>Hello World balise h6</h6>
-    
-    <p><b>em     : </b><em>emphase pour mettre un point sur ce qui est important</em> </p>   
+
+    <p><b>em     : </b><em>emphase pour mettre un point sur ce qui est important</em> </p>
     <p><b>strong : </b><strong> même idem qu'emphase sauf que impression gras</strong></p>
     <p><b>hr     : </b>balise pour tracer une ligne - balise non fermante</p>
     <hr>
     <p><b>del    : </b><del>balise qui fait un texte barré</del></p>
     <p><b>i      : </b><i>balise pour italique</i></p>
     <p><b>b      : </b><b>balise pour gras</b></p>
-        
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <br> Nulla harum accusantium totam excepturi dolorum voluptas vitae laudantium nihil illo. Velit suscipit veritatis libero eveniet aut quo vitae ex minima laudantium?</p>
 
     HOU HI HOU HAHA
 
-<p><a href="http://www.google.fr" title="google" target="blank" rel="noopener"> cliquer ici pour google</a></p>
-<!-- target="blank" ouverture d'un nouvel onglet , si pas de target, ouverture sur la meme page -->
-<!-- rel="noopener" le site ouvert n'a pas accès aux données du site précédent -->
-<a href="http://#" >haut de page </a>
+    <p><a href="http://www.google.fr" title="google" target="blank" rel="noopener"> cliquer ici pour google</a></p>
+    <!-- target="blank" ouverture d'un nouvel onglet , si pas de target, ouverture sur la meme page -->
+    <!-- rel="noopener" le site ouvert n'a pas accès aux données du site précédent -->
+    <a href="http://#">haut de page </a>
 
 
-<h3>listes ordonnées</h3>
-<ol start="8" reversed>
-    <!-- start = commence à ce numéro; reversed dans le sens descendant -->
-    <li>first element</li>
-    <li>second element</li>
-    <li>third element</li>
+    <h3>listes ordonnées</h3>
+    <ol start="8" reversed>
+        <!-- start = commence à ce numéro; reversed dans le sens descendant -->
+        <li>first element</li>
+        <li>second element</li>
+        <li>third element</li>
 
-</ol>
+    </ol>
 
-<h3>liste non ordonnées</h3>
-<ul>
-    <li>first element</li>
-    <li>second element</li>
-    <li>third element</li>
-    
-
-</ul>
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlH919-Z8q715xETUhGYttLBcoq4ZtcbXsw&usqp=CAU" alt="image test">
-<div>
-    <img src="src/1585426276_Animal-Crossing-New-Horizons-Comment-importer-des-images-et-768x432.jpg" alt="ima">
-</div>
-
-<h2>LES TABLEAUX</h2>
-<!-- tr = creer une ligne -->
-<!-- th = creer une colonne comme titre-->
-<!-- td = creer une autre colonne-->
-<table>
-    <caption>Titre du tableau</caption>
-    <tr>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Age</th>
-        <th>Nom1</th>
-        <th>Prénom1</th>
-        <th>Age1</th>
-    </tr>
-    <tr>
-        <td>Dupond</td>
-        <td>René</td>
-        <td>24</td>
-        <td>Dup</td>
-        <td>Re</td>
-        <td>23</td>
-    </tr>
-    <tr>
-        <th>Dupond</th>
-        <td>René</td>
-        <td>24</td>
-        <td>Dup</td>
-        <td>Re</td>
-        <td>23</td>
-    </tr>
-</table>
-
-<!-- formulaires -->
-
-<form action=""> <!-- action = page sur laquelle est renvoyée le formulaire après validation, si rien à supprimer-->
-    <p><input type="text" placeholder="Nom" name="nom"></p>
-    <!-- placeholder="" texte dans le champs input-->
-    <!-- name= nom de la variable -->
-    <p><input type="color"></p>
-    <input type="checkbox">
-    <p><input type="date"></p>
-    <p><input type="datetime-local"></p>
-    <p><input type="email" ></p>
-    <p><input type="file"></p>
-    <p><input type="image" src="src/grapefruit-slice-332-332.jpg" alt=""></p>
-    <p><input type="month" ></p>
-    <p><input type="number" ></p>
-    <p><input type="password" required ></p> <!-- required: champs obligatoire-->
-    <p><input type="radio" ></p>
-    <p><input type="range" ></p>
-    <p><input type="search"></p>
-    <p><input type="tel"></p>
-    <p><input type="time"></p>
-    <p><input type="url"></p>
-    <p><input type="week" ></p>
+    <h3>liste non ordonnées</h3>
+    <ul>
+        <li>first element</li>
+        <li>second element</li>
+        <li>third element</li>
 
 
-    <label>Entrez votre nom</label>
-    <p><input type="text" placeholder="Nom" name="nom"></p>
+    </ul>
 
-    <label>Entrez votre nom</label>
-    <input type="text" placeholder="Nom" name="nom">
-
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlH919-Z8q715xETUhGYttLBcoq4ZtcbXsw&usqp=CAU" alt="image test">
     <div>
-        <select>
+        <img src="src/img/1585426276_Animal-Crossing-New-Horizons-Comment-importer-des-images-et-768x432.jpg" alt="ima">
+    </div>
+
+    <h2>LES TABLEAUX</h2>
+    <!-- tr = creer une ligne -->
+    <!-- th = creer une colonne comme titre-->
+    <!-- td = creer une autre colonne-->
+    <table>
+        <caption>Titre du tableau</caption>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Age</th>
+            <th>Nom1</th>
+            <th>Prénom1</th>
+            <th>Age1</th>
+        </tr>
+        <tr>
+            <td>Dupond</td>
+            <td>René</td>
+            <td>24</td>
+            <td>Dup</td>
+            <td>Re</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <th>Dupond</th>
+            <td>René</td>
+            <td>24</td>
+            <td>Dup</td>
+            <td>Re</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <!-- formulaires -->
+
+    <form action="">
+        <!-- action = page sur laquelle est renvoyée le formulaire après validation, si rien à supprimer-->
+        <p><input type="text" placeholder="Nom" name="nom"></p>
+        <!-- placeholder="" texte dans le champs input-->
+        <!-- name= nom de la variable -->
+        <p><input type="color"></p>
+        <input type="checkbox">
+        <p><input type="date"></p>
+        <p><input type="datetime-local"></p>
+        <p><input type="email"></p>
+        <p><input type="file"></p>
+        <p><input type="image" src="src/img/grapefruit-slice-332-332.jpg" alt=""></p>
+        <p><input type="month"></p>
+        <p><input type="number"></p>
+        <p><input type="password" required></p>
+        <!-- required: champs obligatoire-->
+        <p><input type="radio"></p>
+        <p><input type="range"></p>
+        <p><input type="search"></p>
+        <p><input type="tel"></p>
+        <p><input type="time"></p>
+        <p><input type="url"></p>
+        <p><input type="week"></p>
+
+
+        <label>Entrez votre nom</label>
+        <p><input type="text" placeholder="Nom" name="nom"></p>
+
+        <label>Entrez votre nom</label>
+        <input type="text" placeholder="Nom" name="nom">
+
+        <div>
+            <select>
             <option value="Pommes">Pommes</option>
             <option value="Poires">Poires</option>
             <option value="Scoubidous">Scoubidous</option>
         </select>
+        </div>
+
+
+
+        <button type="submit">Valider le formulaire</button>
+
+
+    </form>
+
+
+    <!-- element type block prend tout l'espace du navigateur -->
+    <!-- element inline ne prends que l'espace dont il a besoin -->
+
+    <h2>les type de balises (display)</h2>
+    <h3>type block</h3>
+    <p> form, h1-->h6, hr, li, ol, ul, p et table</p>
+
+    <h3>type inline</h3>
+    <p>a, br, button, em, img, input, label, meter, progress, select, span, strong, textarea</p>
+
+    <div>
+        <textarea name="" id="" cols="50" rows="20"></textarea>
     </div>
+    <p> consequuntur voluptas sequi, iure vitae ea omnis, repellat placeat unde dolor quis tempora at ducimus.</p>
+
+    <p> consequuntur voluptas sequi, <span style="color: brown " id="id">iure vitae ea omnis, repellat placeat </span>unde dolor quis tempora at ducimus.</p>
 
 
-    
-    <button type="submit">Valider le formulaire</button>
+    <section style="background-color: cadetblue; margin-bottom: 3rem;">
+        <h3>contenu de la section</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi? Nostrum, aut, voluptatibus nemo deserunt maiores nam vel fuga sapiente consequuntur quas inventore cum numquam porro! Exercitationem dolor aliquid dolores.</p>
+        <form action="">
+            <input type="text" name="" id=""><br>
+            <input type="email" name="" id="">
+            <button type="submit">Valider</button>
+        </form>
+    </section>
+    <p>en dehors de section</p>
+
+    <footer style="background-color: rgb(6, 4, 12);">
+        <p style="color: darkgrey;">Guilouze 3030</p>
+    </footer>
+
+    <footer style="background-color: rgb(6, 4, 12); padding: 2rem;">
+        <p style="color: darkgrey;">Guilouze 3030</p>
+    </footer>
 
 
-
-
-
-
-</form>
-
-
-
-
-
-
+    <p class="policemax">classe policemax</p>
 
 
 
 
 
 </body>
-</html>
 
+</html>
