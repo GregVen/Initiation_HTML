@@ -11,10 +11,6 @@ h1 {
 
 /* selectionner une classe un  ".", selectionner un id un "#" */
 
-#selectid {}
-
-.selectclass {}
-
 .policemax {
     font-size: 10rem;
     color: green;

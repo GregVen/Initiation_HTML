@@ -21,9 +21,15 @@ span {
 
 /* combinateurs */
 
+
+/*span dans une div*/
+
 div span {
     color: darkblue;
 }
+
+
+/*span avec comme parent une div*/
 
 div>span {
     color: darkgreen;

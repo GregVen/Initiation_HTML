@@ -1,0 +1,79 @@
+.arial {
+    font-family: Arial;
+}
+
+.impact {
+    font-family: Impact;
+}
+
+.times {
+    font-family: Times;
+}
+
+.courier {
+    font-family: Courier;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.garamond {
+    font-family: Garamond;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.times-new-roman {
+    font-family: "Times New Roman";
+}
+
+​​.fantasy {
+    font-family: fantasy;
+}
+
+
+/* epaisseurs */
+
+.gras {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.decoration {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.decoration2 {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.decoration3 {
+    text-decoration: line-through red solid;
+    text-transform: capitalize;
+    /* chaque mot commence par une majuscule */
+}
+
+.decoration4 {
+    text-decoration: line-through rgba(180, 93, 93, 21) wavy;
+}
+
+.hexa {
+    background-color: #234567;
+}
